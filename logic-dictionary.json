@@ -53,6 +53,10 @@
         "dynamic_programming": {
             "type": "dynamic_programming",
             "blueprint": "المفهوم:\n`A practical guide demonstrating essential Python data structures, algorithms, and problem-solving patterns.`"
+        },
+        "dijkstra_pathfinding": {
+            "type": "dijkstra_pathfinding",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
