@@ -82,11 +82,11 @@
         },
         "self_built_algorithm_factorial_recursion": {
             "type": "factorial",
-            "value": "\n# A self-generated algorithm using recursion.\n# Discovered concept: A function that calls itself to solve smaller versions of the same problem.\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\nnumber = 3\nresult = factorial(number)\nprint(f\"مضروب الرقم {number} هو: {result}\")\n",
+            "value": "\n# A self-generated algorithm using recursion.\n# Discovered concept: A function that calls itself to solve smaller versions of the same problem.\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\nnumber = 5\nresult = factorial(number)\nprint(f\"مضروب الرقم {number} هو: {result}\")\n",
             "linked_to": [],
             "source": "unsupervised_learning",
             "confidence": 99,
-            "last_verified": "2025-08-25T08:36:07.490505"
+            "last_verified": "2025-08-25T08:40:39.245691"
         },
         "self_built_algorithm_git_commit": {
             "type": "git",
