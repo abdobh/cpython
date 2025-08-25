@@ -229,6 +229,10 @@
         "inheritance": {
             "type": "inheritance",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "graph_theory": {
+            "type": "graph_theory",
+            "blueprint": "المفهوم: `Applying a graph algorithm to identify connected components within a network.`"
         }
     }
 }
