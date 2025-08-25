@@ -26,11 +26,11 @@
         },
         "self_built_algorithm_fibonacci_with_memoization": {
             "type": "fibonacci",
-            "value": "\n# A self-generated algorithm for dynamic programming with memoization.\n# Discovered concept: المفهوم:\n`A practical guide demonstrating essential Python data structures, algorithms, and problem-solving patterns.`\ndef fibonacci_with_memo(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_with_memo(n-1, memo) + fibonacci_with_memo(n-2, memo)\n    return memo[n]\nnumber = 9\nresult = fibonacci_with_memo(number)\nprint(f\"The {number}th Fibonacci number using dynamic programming is: {result}\")\n",
+            "value": "\n# A self-generated algorithm for dynamic programming with memoization.\n# Discovered concept: المفهوم:\n`A practical guide demonstrating essential Python data structures, algorithms, and problem-solving patterns.`\ndef fibonacci_with_memo(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci_with_memo(n-1, memo) + fibonacci_with_memo(n-2, memo)\n    return memo[n]\nnumber = 6\nresult = fibonacci_with_memo(number)\nprint(f\"The {number}th Fibonacci number using dynamic programming is: {result}\")\n",
             "linked_to": [],
             "source": "unsupervised_learning",
             "confidence": 99,
-            "last_verified": "2025-08-25T09:00:41.431220"
+            "last_verified": "2025-08-25T09:02:59.488874"
         },
         "self_built_algorithm_dijkstra_pathfinding": {
             "type": "dijkstra",
