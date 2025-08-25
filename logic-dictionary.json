@@ -233,6 +233,10 @@
         "graph_theory": {
             "type": "graph_theory",
             "blueprint": "المفهوم: `Applying a graph algorithm to identify connected components within a network.`"
+        },
+        "searching_algorithm": {
+            "type": "searching_algorithm",
+            "blueprint": "- المفهوم: `خوارزميات متنوعة لتحديد موقع عناصر محددة بكفاءة داخل هياكل البيانات.`"
         }
     }
 }
