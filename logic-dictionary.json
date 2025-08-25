@@ -143,6 +143,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:52:54.125841"
+        },
+        "self_built_algorithm_linear_search": {
+            "type": "linear",
+            "value": "\n# A self-generated algorithm for linear search.\n# Discovered concept: - المفهوم: `خوارزميات متنوعة لتحديد موقع عناصر محددة بكفاءة داخل هياكل البيانات.`\ndef linear_search(arr, target):\n    for i in range(len(arr)):\n        if arr[i] == target:\n            return i\n    return -1\ndata = [10, 20, 30, 40, 50]\nitem_to_find = 60\nresult_index = linear_search(data, item_to_find)\nif result_index != -1:\n    print(f\"تم العثور على العنصر {item_to_find} في الفهرس: {result_index}\")\nelse:\n    print(f\"العنصر {item_to_find} غير موجود في القائمة.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:54:18.605152"
         }
     },
     "meta_rules": {
