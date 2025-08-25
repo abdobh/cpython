@@ -27,6 +27,11 @@
                 "blueprint": "المفهوم: `A system that centralizes the dynamic determination and provision of a software package's version information from multiple sources.`",
                 "trunk": "general",
                 "source": "unsupervised_learning"
+            },
+            "loops": {
+                "blueprint": "A concept for which a working code example was not found online.",
+                "trunk": "general",
+                "source": "unsupervised_learning"
             }
         }
     }
