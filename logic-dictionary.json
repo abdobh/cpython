@@ -145,6 +145,10 @@
         "data_structures": {
             "type": "data_structures",
             "blueprint": "- المفهوم: `Assembling and operating a complex system using a high-level library API.`"
+        },
+        "version_control": {
+            "type": "version_control",
+            "blueprint": "المفهوم: `Software version and release information management.`"
         }
     }
 }
