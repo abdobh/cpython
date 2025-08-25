@@ -141,6 +141,10 @@
         "classes": {
             "type": "classes",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "data_structures": {
+            "type": "data_structures",
+            "blueprint": "- المفهوم: `Assembling and operating a complex system using a high-level library API.`"
         }
     }
 }
