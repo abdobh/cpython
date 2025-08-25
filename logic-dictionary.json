@@ -17,6 +17,11 @@
                 "blueprint": "هيكل بيانات لإدارة مجموعة من المجموعات المنفصلة، يدعم عمليات الدمج والبحث الفعالة.",
                 "trunk": "general",
                 "source": "unsupervised_learning"
+            },
+            "inheritance": {
+                "blueprint": "A concept for which a working code example was not found online.",
+                "trunk": "general",
+                "source": "unsupervised_learning"
             }
         }
     }
