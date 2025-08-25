@@ -193,6 +193,10 @@
         "variables": {
             "type": "variables",
             "blueprint": "- الكود: `x = 35\n    y = x + 5\n    print(y)`\n- المفهوم: `Direct execution of statements to store and transform data into an observable output.`"
+        },
+        "conditionals": {
+            "type": "conditionals",
+            "blueprint": "- المفهوم: `A library enabling programmatic definition and generation of automation workflows for an external system.`"
         }
     }
 }
