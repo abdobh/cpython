@@ -159,6 +159,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T08:24:25.027261"
+        },
+        "self_built_algorithm_graph_mst": {
+            "type": "graph",
+            "value": "\n# خوارزمية تم توليدها ذاتياً لشجرة الحد الأدنى الامتداد (Minimum Spanning Tree) باستخدام خوارزمية Kruskal.\n# المفهوم المكتشف: An algorithm that finds the minimum spanning tree of a graph by iteratively adding the smallest-weight edges that do not form a cycle, using a Union-Find data structure to detect cycles.\nclass UnionFind:\n    def __init__(self, nodes):\n        self.parent = {node: node for node in nodes}\n    def find(self, i):\n        if self.parent[i] == i:\n            return i\n        self.parent[i] = self.find(self.parent[i])\n        return self.parent[i]\n    def union(self, i, j):\n        root_i = self.find(i)\n        root_j = self.find(j)\n        if root_i != root_j:\n            self.parent[root_j] = root_i\n            return True\n        return False\ndef kruskal_mst(graph_edges, graph_nodes):\n    result = []\n    i, e = 0, 0\n    graph_edges.sort(key=lambda item: item[2])\n    \n    uf = UnionFind(graph_nodes)\n    while e < len(graph_nodes) - 1:\n        u, v, weight = graph_edges[i]\n        i = i + 1\n        x = uf.find(u)\n        y = uf.find(v)\n        if x != y:\n            e = e + 1\n            result.append((u, v, weight))\n            uf.union(x, y)\n    return result\ngraph_edges = [('A', 'B', 10), ('A', 'C', 6), ('A', 'D', 5), ('B', 'D', 15), ('C', 'D', 4)]\ngraph_nodes = ['A', 'B', 'C', 'D']\nmst_edges = kruskal_mst(graph_edges, graph_nodes)\ntotal_weight = sum(w for u, v, w in mst_edges)\nprint(\"الأضلاع في شجرة الحد الأدنى الامتداد (Kruskal):\")\nfor u, v, w in mst_edges:\n    print(f\" - ({u}, {v}) مع وزن {w}\")\nprint(f\"الوزن الإجمالي لشجرة الحد الأدنى الامتداد: {total_weight}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T08:25:15.292029"
         }
     },
     "meta_rules": {
