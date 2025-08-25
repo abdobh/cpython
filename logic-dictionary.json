@@ -257,6 +257,10 @@
         "loops": {
             "type": "loops",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "kruskal_mst": {
+            "type": "kruskal_mst",
+            "blueprint": "An algorithm that finds the minimum spanning tree of a graph by iteratively adding the smallest-weight edges that do not form a cycle, using a Union-Find data structure to detect cycles."
         }
     }
 }
