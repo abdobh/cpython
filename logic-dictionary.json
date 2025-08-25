@@ -113,6 +113,10 @@
         "a_star_pathfinding": {
             "type": "a_star_pathfinding",
             "blueprint": "المفهوم: `Simulating and controlling a virtual physical environment where objects interact according to defined rules.`"
+        },
+        "testing": {
+            "type": "testing",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
