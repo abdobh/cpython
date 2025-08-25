@@ -12,6 +12,11 @@
                 "blueprint": "- الكود: `import tensorflow as tf\nimport numpy as np\n\n\ndef create_samples(n_clusters, n_samples_per_cluster, n_features, embiggen_factor, seed):\n    np.random.seed(seed)\n    slices = []\n    centroids = []\n    # 为每个簇创建样本\n    for i in range(n_clusters):\n        samples = tf.random_normal((n_samples_per_cluster, n_features),\n                                   mean=0.0, stddev=5.0, dtype=tf.float32, seed=seed, name=\"cluster_{}\".format(i))\n        current_centroid = (np.random.random((1, n_features)) * embiggen_factor) - (embiggen_factor/2)\n        centroids.append(current_centroid)\n        samples += current_centroid\n        slices.append(samples)\n    # 创建一个大的“样本”数据集\n    samples = tf.concat(slices, 0, name='samples')\n    centroids = tf.concat(centroids, 0, name='centroids')\n    return centroids, samples`\n- المفهوم: `Creates a synthetic dataset by generating multiple distinct clusters of data points, each normally distributed around a randomly chosen center.`",
                 "trunk": "general",
                 "source": "unsupervised_learning"
+            },
+            "kruskal_mst": {
+                "blueprint": "هيكل بيانات لإدارة مجموعة من المجموعات المنفصلة، يدعم عمليات الدمج والبحث الفعالة.",
+                "trunk": "general",
+                "source": "unsupervised_learning"
             }
         }
     }
