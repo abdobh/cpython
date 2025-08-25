@@ -167,6 +167,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T08:42:10.586634"
+        },
+        "self_built_algorithm_create_simple_object": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for creating an object from a class.\n# Discovered concept: A concept for which a working code example was not found online.\nclass Car:\n    def __init__(self, color):\n        self.color = color\nmy_car = Car(\"أحمر\")\nprint(f\"تم إنشاء كائن جديد من { my_car.__class__.__name__ } بلون { my_car.color }.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T08:42:23.016135"
         }
     },
     "meta_rules": {
