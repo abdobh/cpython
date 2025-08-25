@@ -63,6 +63,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:43:53.247982"
+        },
+        "self_built_algorithm_a_star_pathfinding": {
+            "type": "a",
+            "value": "\n# A self-generated algorithm for A* pathfinding on a grid.\n# Discovered concept: المفهوم: `Simulating and controlling a virtual physical environment where objects interact according to defined rules.`\nimport heapq\ndef a_star(grid, start, end):\n    rows, cols = len(grid), len(grid[0])\n    \n    def heuristic(a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n    \n    open_set = [(0, start)]\n    came_from = {}\n    g_score = {cell: float('inf') for row in grid for cell in [(i, j) for j in range(cols)] for i in range(rows)}\n    g_score[start] = 0\n    f_score = {cell: float('inf') for row in grid for cell in [(i, j) for j in range(cols)] for i in range(rows)}\n    f_score[start] = heuristic(start, end)\n    \n    while open_set:\n        current_f, current_cell = heapq.heappop(open_set)\n        \n        if current_cell == end:\n            path = []\n            while current_cell in came_from:\n                path.append(current_cell)\n                current_cell = came_from[current_cell]\n            path.append(start)\n            path.reverse()\n            return path\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current_cell[0] + dx, current_cell[1] + dy)\n            if 0 <= neighbor[0] < rows and 0 <= neighbor[1] < cols and grid[neighbor[0]][neighbor[1]] == 0:\n                tentative_g_score = g_score[current_cell] + 1\n                if tentative_g_score < g_score[neighbor]:\n                    came_from[neighbor] = current_cell\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = tentative_g_score + heuristic(neighbor, end)\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n                    \n    return None\ngrid = [[0, 0, 0, 0], [0, 1, 1, 0], [0, 0, 0, 0]]\nstart = (0, 0)\nend = (2, 3)\npath = a_star(grid, start, end)\nif path:\n    print(f\"Path found: {path}\")\nelse:\n    print(\"No path found.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:44:21.099617"
         }
     },
     "meta_rules": {
