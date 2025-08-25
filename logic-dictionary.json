@@ -157,6 +157,10 @@
         "version_control": {
             "type": "version_control",
             "blueprint": "المفهوم: `Software version and release information management.`"
+        },
+        "concurrency": {
+            "type": "concurrency",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
