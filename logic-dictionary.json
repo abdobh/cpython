@@ -50,11 +50,11 @@
         },
         "self_built_algorithm_check_data_type": {
             "type": "check",
-            "value": "\n# A self-generated algorithm to check data type.\n# Discovered concept: خادم ويب يعالج ويستجيب للأحداث في الوقت الفعلي من خدمة خارجية عبر الـ Webhooks.\ndata_item = True\ndata_type = type(data_item).__name__\nprint(f\"نوع البيانات لـ {repr(data_item)} هو: {data_type}\")\n",
+            "value": "\n# A self-generated algorithm to check data type.\n# Discovered concept: خادم ويب يعالج ويستجيب للأحداث في الوقت الفعلي من خدمة خارجية عبر الـ Webhooks.\ndata_item = 'hello'\ndata_type = type(data_item).__name__\nprint(f\"نوع البيانات لـ {repr(data_item)} هو: {data_type}\")\n",
             "linked_to": [],
             "source": "unsupervised_learning",
             "confidence": 99,
-            "last_verified": "2025-08-25T09:13:31.696637"
+            "last_verified": "2025-08-25T09:19:04.697668"
         },
         "self_built_algorithm_simple_bubble_sort": {
             "type": "simple",
