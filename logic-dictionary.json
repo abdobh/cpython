@@ -32,6 +32,11 @@
                 "blueprint": "A concept for which a working code example was not found online.",
                 "trunk": "general",
                 "source": "unsupervised_learning"
+            },
+            "dynamic_programming": {
+                "blueprint": "- المفهوم: `طريقة لحل المشكلات المعقدة بتقسيمها إلى مسائل فرعية متداخلة وتخزين حلولها لتجنب الحسابات المتكررة.`",
+                "trunk": "general",
+                "source": "unsupervised_learning"
             }
         }
     }
