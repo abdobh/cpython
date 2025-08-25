@@ -114,11 +114,11 @@
         },
         "self_built_algorithm_define_variable": {
             "type": "define",
-            "value": "\n# A self-generated algorithm for defining a variable.\n# Discovered concept: - الكود: `x = 35\n    y = x + 5\n    print(y)`\n- المفهوم: `Direct execution of statements to store and transform data into an observable output.`\nmy_number = 23\nprint(f\"تم إنشاء متغير: {var_name} بقيمة {repr(var_value)}\")\n",
+            "value": "\n# A self-generated algorithm for defining a variable.\n# Discovered concept: - الكود: `x = 35\n    y = x + 5\n    print(y)`\n- المفهوم: `Direct execution of statements to store and transform data into an observable output.`\nmy_number = 43\nprint(f\"تم إنشاء متغير: {var_name} بقيمة {repr(var_value)}\")\n",
             "linked_to": [],
             "source": "unsupervised_learning",
             "confidence": 99,
-            "last_verified": "2025-08-25T08:57:57.158577"
+            "last_verified": "2025-08-25T09:07:15.576349"
         },
         "self_built_algorithm_if_statement": {
             "type": "if",
