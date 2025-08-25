@@ -77,6 +77,10 @@
         "hash_maps": {
             "type": "hash_maps",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "data_types": {
+            "type": "data_types",
+            "blueprint": "خادم ويب يعالج ويستجيب للأحداث في الوقت الفعلي من خدمة خارجية عبر الـ Webhooks."
         }
     }
 }
