@@ -39,6 +39,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:41:40.847897"
+        },
+        "self_built_algorithm_create_simple_hashmap": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for a hash map (dictionary).\n# Discovered concept: A concept for which a working code example was not found online.\nmy_dict = {}\nmy_dict[\"fruit_1\"] = \"apple\"\nmy_dict[\"fruit_2\"] = \"banana\"\nprint(f\"My dictionary: {my_dict}\")\nprint(f\"Value for 'fruit_1': {my_dict.get('fruit_1')}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:42:33.790208"
         }
     },
     "meta_rules": {
