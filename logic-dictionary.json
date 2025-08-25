@@ -101,6 +101,10 @@
         "sorting_algorithm": {
             "type": "sorting_algorithm",
             "blueprint": "المفهوم: `Generating an ordered linear profile from spatially distributed data points.`"
+        },
+        "a_star_pathfinding": {
+            "type": "a_star_pathfinding",
+            "blueprint": "المفهوم: `Simulating and controlling a virtual physical environment where objects interact according to defined rules.`"
         }
     }
 }
