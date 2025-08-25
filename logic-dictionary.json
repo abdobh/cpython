@@ -125,6 +125,10 @@
         "testing": {
             "type": "testing",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "recursion": {
+            "type": "recursion",
+            "blueprint": "A function that calls itself to solve smaller versions of the same problem."
         }
     }
 }
