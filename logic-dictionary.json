@@ -135,6 +135,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:52:05.780264"
+        },
+        "self_built_algorithm_create_class_with_inheritance": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for class inheritance.\n# Discovered concept: A concept for which a working code example was not found online.\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        raise NotImplementedError(\"Subclass must implement abstract method\")\nclass Dog(Animal):\n    def __init__(self, name):\n        super().__init__(name)\n    def speak(self):\n        return f\"{self.name} makes a sound.\"\nmy_dog = Dog(\"Buddy\")\nprint(f\"The {my_dog.__class__.__name__} says: {my_dog.speak()}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:52:54.125841"
         }
     },
     "meta_rules": {
