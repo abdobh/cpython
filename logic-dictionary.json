@@ -217,6 +217,10 @@
         "debugging": {
             "type": "debugging",
             "blueprint": "المفهوم: `A boundary error where a string copy operation writes a single null byte beyond the intended buffer end.`"
+        },
+        "inheritance": {
+            "type": "inheritance",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
