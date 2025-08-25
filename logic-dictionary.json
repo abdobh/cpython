@@ -71,6 +71,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:44:21.099617"
+        },
+        "self_built_algorithm_test_function_example": {
+            "type": "test",
+            "value": "\n# A self-generated algorithm for a simple test case.\n# Discovered concept: A concept for which a working code example was not found online.\ndef add(a, b):\n    return a + b\ndef run_test(func, *args, expected_result):\n    actual_result = func(*args)\n    if actual_result == expected_result:\n        print(f\"Test for {func.__name__} passed! Expected: {expected_result}, Got: {actual_result}\")\n    else:\n        print(f\"Test for {func.__name__} FAILED! Expected: {expected_result}, Got: {actual_result}\")\nrun_test(add, 2, 3, expected_result=5)\nrun_test(add, 1, 1, expected_result=3)\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:45:18.035253"
         }
     },
     "meta_rules": {
