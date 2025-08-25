@@ -1,1 +1,9 @@
-
+{
+    "rules": {},
+    "meta_rules": {
+        "general": {
+            "type": "general",
+            "blueprint": "A concept for which a working code example was not found online."
+        }
+    }
+}
