@@ -261,6 +261,10 @@
         "kruskal_mst": {
             "type": "kruskal_mst",
             "blueprint": "An algorithm that finds the minimum spanning tree of a graph by iteratively adding the smallest-weight edges that do not form a cycle, using a Union-Find data structure to detect cycles."
+        },
+        "prim_mst": {
+            "type": "prim_mst",
+            "blueprint": "An algorithm that finds the minimum spanning tree of a graph by starting from an arbitrary vertex and growing the tree by adding the cheapest edge from the tree to a new vertex, using a min-priority queue to efficiently select the next edge."
         }
     }
 }
