@@ -15,6 +15,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:39:58.045538"
+        },
+        "self_built_algorithm_polymorphism_example": {
+            "type": "polymorphism",
+            "value": "\n# A self-generated algorithm for polymorphism.\n# Discovered concept: A concept for which a working code example was not found online.\nclass Animal:\n    def speak(self):\n        return \"I am an animal.\"\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof!\"\nclass Cat(Animal):\n    def speak(self):\n        return \"Meow!\"\nfor animal in [Dog(), Cat()]:\n    print(animal.speak())\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:40:45.139650"
         }
     },
     "meta_rules": {
