@@ -1,5 +1,14 @@
 {
-    "rules": {},
+    "rules": {
+        "self_built_algorithm_simple_http_request": {
+            "type": "simple",
+            "value": "\n# A self-generated algorithm for a simple HTTP request.\n# Discovered concept: A concept for which a working code example was not found online.\nimport requests\ndef fetch_url(url):\n    try:\n        response = requests.get(url, timeout=5)\n        print(f\"Successfully fetched {url}. Status Code: {response.status_code}\")\n    except requests.exceptions.RequestException as e:\n        print(f\"Failed to fetch {url}. Error: {e}\")\nfetch_url(\"https://example.com\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:39:27.728790"
+        }
+    },
     "meta_rules": {
         "general": {
             "type": "general",
