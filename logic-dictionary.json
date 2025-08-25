@@ -205,6 +205,10 @@
         "conditionals": {
             "type": "conditionals",
             "blueprint": "- المفهوم: `A library enabling programmatic definition and generation of automation workflows for an external system.`"
+        },
+        "debugging": {
+            "type": "debugging",
+            "blueprint": "المفهوم: `A boundary error where a string copy operation writes a single null byte beyond the intended buffer end.`"
         }
     }
 }
