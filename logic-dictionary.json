@@ -41,6 +41,10 @@
         "polymorphism": {
             "type": "polymorphism",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "dynamic_programming": {
+            "type": "dynamic_programming",
+            "blueprint": "المفهوم:\n`A practical guide demonstrating essential Python data structures, algorithms, and problem-solving patterns.`"
         }
     }
 }
