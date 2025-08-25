@@ -58,11 +58,11 @@
         },
         "self_built_algorithm_simple_bubble_sort": {
             "type": "simple",
-            "value": "\n# A self-generated algorithm for a simple bubble sort.\n# Discovered concept: المفهوم: `Generating an ordered linear profile from spatially distributed data points.`\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nmy_list = [42, 21, 40, 29, 12]\nsorted_list = bubble_sort(my_list)\nprint(f\"القائمة الأصلية: {my_list}\")\nprint(f\"القائمة بعد الفرز: {sorted_list}\")\n",
+            "value": "\n# A self-generated algorithm for a simple bubble sort.\n# Discovered concept: المفهوم: `Generating an ordered linear profile from spatially distributed data points.`\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nmy_list = [37, 28, 36, 12, 26]\nsorted_list = bubble_sort(my_list)\nprint(f\"القائمة الأصلية: {my_list}\")\nprint(f\"القائمة بعد الفرز: {sorted_list}\")\n",
             "linked_to": [],
             "source": "unsupervised_learning",
             "confidence": 99,
-            "last_verified": "2025-08-25T09:04:41.767888"
+            "last_verified": "2025-08-25T09:08:20.175101"
         },
         "self_built_algorithm_a_star_pathfinding": {
             "type": "a",
