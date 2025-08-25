@@ -29,6 +29,10 @@
         "stacks_and_queues": {
             "type": "stacks_and_queues",
             "blueprint": "المفهوم: `A queue that optimizes storage by consolidating consecutive identical elements into item-count pairs.`"
+        },
+        "polymorphism": {
+            "type": "polymorphism",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
