@@ -245,6 +245,10 @@
         "searching_algorithm": {
             "type": "searching_algorithm",
             "blueprint": "- المفهوم: `خوارزميات متنوعة لتحديد موقع عناصر محددة بكفاءة داخل هياكل البيانات.`"
+        },
+        "loops": {
+            "type": "loops",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
