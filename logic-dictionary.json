@@ -119,6 +119,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T06:50:55.442774"
+        },
+        "self_built_algorithm_if_statement": {
+            "type": "if",
+            "value": "\n# A self-generated algorithm for a conditional statement.\n# Discovered concept: - المفهوم: `A library enabling programmatic definition and generation of automation workflows for an external system.`\nmy_number = 6\nif my_number > 50:\n    print(\"الرقم أكبر من 50.\")\nelse:\n    print(\"الرقم ليس أكبر من 50.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T06:51:27.083951"
         }
     },
     "meta_rules": {
