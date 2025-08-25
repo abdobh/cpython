@@ -65,6 +65,10 @@
         "dijkstra_pathfinding": {
             "type": "dijkstra_pathfinding",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "hash_maps": {
+            "type": "hash_maps",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
